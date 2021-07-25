@@ -1,0 +1,20 @@
+{
+    "solar": {
+        "heading": "Solar Energy",
+        "imageURL": "images/solar-panel.jpg",
+        "imageAlt": "solar-panel image",
+        "bodyText": "Solar technology can take sunlight and change it into energy using photovoltaic (PV) solar panels or by concentrating the solar radiation using special mirrors. Individual particles of light are called photons. These are tiny packets of electromagnetic radiation that have different amounts of energy depending on how quickly they move. Photons are released by the sun during the process of nuclear fusion when hydrogen is converted to helium. If photons have enough energy, they can be harnessed to generate electricity."
+    },
+    "wind": {
+        "heading": "Wind Energy",
+        "imageURL": "images/wind-energy.jpg",
+        "imageAlt": "wind-energy-image",
+        "bodyText": "When building and managing wind farms, operators must consider a variety of factors, such as topography and temperature, when optimizing the energy production of each individual turbine. But engineers must also consider how each turbine effects those around them. The wake from an upwind turbine can reduce the power production of a turbine downwind by as much as 60 percent. One of the tools that can be used to optimize an individual turbine's power production is its yaw, the turbine's angle relative to the horizontal plane. A turbine's yaw can also be adjusted to reposition its wake away from downwind neighbors."
+    },
+    "renewable": {
+        "heading": "Renewable Energy",
+        "imageURL": "images/renewable-energy.jpg",
+        "imageAlt": "renewable energy image",
+        "bodyText": "In today's world, innovation doesn't just happen in the lab, they must also happen in our factories and plants. Today's manufacturers have a once-in-a-lifetime opportunity to give the next generation a world worth inheriting and at LG, we take this responsibility very seriously.'Two years ago, LG pledged to be carbon neutral by 2030, which entails reducing carbon emissions in the production stage to half of what it emitted in 2017 by 2030. As part of that plan, LG said in its latest sustainability report it is on track to both achieve 95% in waste recycling rate at its production sites and transition to using only electric or hydrogen cars for business by 2030.'"
+    }
+}

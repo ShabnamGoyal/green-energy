@@ -1,0 +1,233 @@
+/*
+Color Scheme:
+       Green:  #6ABE52;
+        Gray   #21212D;
+        Grey (from algonquin website)   #707070;
+      
+Font: Heading  : font-family: "Halant", "Times New Roman", Times, serif;
+            Body : font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+*/
+
+/* General*/
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Halant", "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  /* font-weight: 300; */
+  font-size: 1rem;
+  color: #333333;
+
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 60rem;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+.logo img {
+  width: 300px;
+  height: auto;
+  margin: 0.5rem;
+  margin-left: 1rem;
+}
+
+/* Navigation */
+nav {
+  padding: 0.5rem 0 0;
+  font-weight: 600;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #21212d;
+  box-shadow: 2px 1px 2px;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 3.5rem;
+  font-size: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #6abe52;
+}
+
+/* Masthead */
+.masthead {
+  background-size: cover;
+  background-image: url("../images/masthead.jpg");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0;
+  position: relative;
+}
+
+.masthead h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(33, 33, 45, 0.8);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  color: #fff;
+}
+
+/* Controls */
+.controls {
+  margin-top: 2rem;
+}
+
+.controls button {
+  border-radius: 15%;
+  border-style: none;
+  margin-right: 1.5rem;
+  padding: 1rem;
+}
+
+.controls button:hover {
+  background-color: rgba(255, 230, 124, 0.3);
+}
+
+button#active-button {
+  background-color: rgba(255, 230, 124, 0.3);
+}
+
+.controls img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10%;
+  border-style: none;
+  padding: 0.2rem;
+}
+
+/* Content */
+.content {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.content img {
+  width: 25%;
+  height: auto;
+}
+
+.content p {
+  padding-top: 0;
+  margin-left: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Footer */
+.social-media {
+  margin-top: 3rem;
+  background-color: #6abe52;
+  padding: 1.5rem;
+  padding-left: 40%;
+}
+
+.social-media a {
+  padding-left: 2rem;
+}
+.social-media a img {
+  height: 2rem;
+  width: auto;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 30rem) {
+  body {
+    font-size: 0.75;
+  }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+    margin: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  /* Navigation */
+  nav {
+    padding-bottom: 0.5rem;
+    color: #fff;
+  }
+
+  nav ul li {
+    display: block;
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /* CONTROLS */
+  .controls img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+    border-style: none;
+    padding: 0.2rem;
+  }
+
+  .content {
+    display: block;
+    width: 100%;
+  }
+  .content img {
+    height: 250px;
+    width: auto;
+  }
+
+  .content p {
+    padding-top: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    margin: 0;
+  }
+
+  .social-media {
+    padding: 1.3rem;
+    padding-left: 20%;
+  }
+
+  .social-media a img {
+    height: 1.5rem;
+    width: auto;
+  }
+}
