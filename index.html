@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Manipulation</title>
+
+    <!--        Halant & Nunito - Google Font style sheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--         My style sheet-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></a></li>
+            </ul>
+        </nav>
+
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <h1>We will make <span style="color: #6ABE52">green energy </span><br />affordable.</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- THREE CONTENT BUTTONS -->
+        <div class="container">
+            <div id="controls" class="controls">
+                <button class="solar" id="active-button"><img src="images/solar.png" alt="sun-image"></button>
+                <button class="wind"><img src="images/wind.png" alt="sun-image"></button>
+                <button class="renewable"><img src="images/water.png" alt="sun-image"></button>
+            </div>
+
+            <div id="dynamic-content">
+                <!-- CONTENT -->
+                <h1>Solar Energy</h1>
+                <section class="content">
+
+                    <img src="images/solar-panel.jpg" alt="Solar Panel">
+                    <p>Solar technology can take sunlight and change it into energy using photovoltaic (PV) solar panels
+                        or by concentrating the solar radiation using special mirrors. Individual particles of light are
+                        called photons. These are tiny packets of electromagnetic radiation that have different amounts
+                        of energy depending on how quickly they move. Photons are released by the sun during the process
+                        of
+                        nuclear fusion when hydrogen is converted to helium. If photons have enough energy, they can be
+                        harnessed to
+                        generate electricity.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section class="social-media">
+            <a href="#"><img src="images/twitter.png" alt="twitter icon"></a>
+            <a href="#"><img src="images/linkedin.png" alt="linkedin icon"></a>
+            <a href="#"><img src="images/insta.png" alt="instagram icon"></a>
+            <a href="#"><img src="images/fb.png" alt="facebook icon"></a>
+        </section>
+    </footer>
+
+    <!-- SCRIPT TAG -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
